@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Alfred maximedashboard",
+            "request": "launch",
+            "type": "dart",
+            //Ici son tout les "settings" personnel pour ce connecter à la base de donnée
+            "toolArgs": [
+                "--define=API_URL=http://localhost:8080/v1.0/",
+                "--define=MONGO_CONNECTION_STRING=mongodb+srv://techno:emergente@cluster0.i0irjxg.mongodb.net/?retryWrites=true&w=majority",
+                "--define=MONGO_DBNAME=technov2",
+                "--define=MONGO_USER=techno",
+                "--define=MONGO_PASSWORD=emergente",
+                "--define=MONGO_HOST=ac-1vcmb5s-shard-00-00.i0irjxg.mongodb.net:27017,ac-1vcmb5s-shard-00-01.i0irjxg.mongodb.net:27017,ac-1vcmb5s-shard-00-02.i0irjxg.mongodb.net:27017",
+                "--define=MONGO_AUTHDB=test",
+            ]
+        },
+    ]
+}
